@@ -22,31 +22,31 @@
       <a href="{{pathFor 'home'}}" class="{{activePage 'home'}}">
         <span class="wrapper-menu-item">
           <span class="icon-home"></span>
-          <span class="title-menu">Home</span>
+          <span class="title-menu">hjem</span>
         </span>
       </a>
       <a href="{{pathFor 'feed'}}" class="{{activePage 'feed'}}">
         <span class="wrapper-menu-item">
           <span class="icon-rss"></span>
-          <span class="title-menu">What's<br>Cooking</span>
+          <span class="title-menu">matvrak</span>
         </span>
       </a>
       <a href="{{pathFor 'recipes'}}" class="{{activePage 'recipes' 'recipe'}}">
         <span class="wrapper-menu-item">
           <span class="icon-category"></span>
-          <span class="title-menu">Recipes</span>
+          <span class="title-menu">oppskrifter</span>
         </span>
       </a>
       <a href="{{pathFor 'bookmarks'}}" class="{{activePage 'bookmarks'}}">
         <span class="wrapper-menu-item">
           <span class="icon-bookmark-hollow"></span>
-          <span class="title-menu">Bookmarks</span>
+          <span class="title-menu">yndlinger</span>
         </span>
       </a>
       <a href="{{pathFor 'about'}}" class="{{activePage 'about'}}">
         <span class="wrapper-menu-item">
           <span class="icon-question"></span>
-          <span class="title-menu">About</span>
+          <span class="title-menu">emil edb</span>
         </span>
       </a>
     </section>
@@ -55,7 +55,7 @@
         {{#unless connected}}
           <div class="notification">
             <span class="icon-sync"></span>
-            <div class="title-notification">Trying to connect</div>
+            <div class="title-notification">Forsøker tafse på server</div>
           </div>
         {{/unless}}
         {{#each notifications}}
