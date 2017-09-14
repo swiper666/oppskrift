@@ -1,9 +1,9 @@
 App.info({
-  name: 'Local Market',
-  description: 'A recipe sharing app made in Meteor.',
-  author: 'Percolate Studio Team',
-  email: 'us@percolatestudio.com',
-  website: 'http://percolatestudio.com',
+  name: 'Oppskrifter',
+  description: 'En mat-app fra Emil EDB',
+  author: 'hackstack.no / Emil EDB',
+  email: 'emilra@gmail.com',
+  website: 'http://hackstack.no',
   version: '0.0.1'
 });
 
